@@ -170,6 +170,7 @@ def updateDB():
 	max_qps_time = ''
 	min_qps_time = ''
 	max_ip = 0
+	max_502 = 0
 	local_ip = getLocalIP()
 
 
@@ -180,6 +181,9 @@ def updateDB():
 			if 	status.startswith('4'):
 				if max_4xx < log_detail_dict[k]['status'][status]:
 					max_4xx = log_detail_dict[k]['status'][status]
+			if status.startswith('502'):
+				if max_502 < log_detail_dict[k]['status'][status]:
+					max_502 = log_detail_dict[k]['status'][status]
 			if status.startswith('200'):
 				if max_200 < log_detail_dict[k]['status'][status]:
 					max_200 = log_detail_dict[k]['status'][status]
@@ -222,11 +226,11 @@ def updateDB():
 			max_ip = len(v['ip'])
 
 
-	sql = "INSERT INTO log_time(time_tag,max_200,max_204,status_404,ip, " \
+	sql = "INSERT INTO log_time(time_tag,max_200,max_204,status_404,status_502,ip, " \
 			"min_request_time,max_request_time,min_response_time," \
 	        "max_response_time,max_qps,min_qps,max_qps_time,min_qps_time,local_ip) VALUES " \
-		    "('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')" % (time_min_tag,
-	                                                                    max_200,max_204,max_4xx,max_ip,
+		    "('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')" % (time_min_tag,
+	                                                                    max_200,max_204,max_4xx,max_502,max_ip,
 		                                                                min_request_time,max_request_time,
 		                                                                min_response_time,min_response_time,
                                                                       max_qps,min_qps,max_qps_time,min_qps_time,local_ip)
