@@ -1,0 +1,16 @@
+global:
+  path: /Data/logs/api_vmatch
+  name: api.vmatch.tansuotv.com_%Y%m%d%H%M.log
+  separator: {|}
+  ipaddr: 1.1.1.1
+
+log:
+  path: /var/log/analysislog.log
+
+
+db:
+  name: nginx_log
+  host: 10.20.40.21
+  port: 3306
+  user: root
+  passwd: zhanglei
