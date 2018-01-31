@@ -239,13 +239,13 @@ def updateDB():
 	           "status_204,status_404,status_502,ip_nums,max_qps,min_qps," \
 	           "max_qps_time,min_qps_time,min_request_times,max_request_times," \
 	           "min_response_times,max_response_times) VALUES " \
-	           "('%s',%s',%s',%s',%s',%s',%s',%s',%s',%s',%s',%s',%s',%s',%s')" % (
+	           "('%s','%s','%s','%s','%s'',%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')" % (
 		local_ip,time_min_tag,max_200,max_204,max_4xx,max_502,max_ip,max_qps,min_qps,
 		max_qps_time,min_qps_time,min_request_time,max_request_time,min_response_time,max_response_time
 	)
 
 	DB(info_sql,'insert')
-	# print(sql)
+	print(info_sql)
 
 
 

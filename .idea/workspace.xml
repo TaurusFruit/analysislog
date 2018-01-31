@@ -38,8 +38,8 @@
       <file leaf-file-name="base.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63917524">
-              <caret line="247" column="18" selection-start-line="247" selection-start-column="18" selection-end-line="247" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.61340207">
+              <caret line="246" column="25" selection-start-line="246" selection-start-column="25" selection-end-line="246" selection-end-column="25" />
               <folding>
                 <marker date="1517384494508" expanded="true" signature="6244:6563" placeholder="INSERT INTO log_time..." />
                 <marker date="1517384494508" expanded="true" signature="7039:7308" placeholder="INSERT INTO app_loginfo..." />
@@ -361,7 +361,13 @@
       <option name="project" value="LOCAL" />
       <updated>1517383008326</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更新数据库信息">
+      <created>1517384499044</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1517384499044</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -439,8 +445,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63917524">
-          <caret line="247" column="18" selection-start-line="247" selection-start-column="18" selection-end-line="247" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.61340207">
+          <caret line="246" column="25" selection-start-line="246" selection-start-column="25" selection-end-line="246" selection-end-column="25" />
           <folding>
             <marker date="1517384494508" expanded="true" signature="6244:6563" placeholder="INSERT INTO log_time..." />
             <marker date="1517384494508" expanded="true" signature="7039:7308" placeholder="INSERT INTO app_loginfo..." />
