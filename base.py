@@ -245,7 +245,7 @@ def updateDB():
 	)
 
 	DB(info_sql,'insert')
-	print(info_sql)
+	# print(info_sql)
 
 
 
