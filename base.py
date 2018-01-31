@@ -226,16 +226,25 @@ def updateDB():
 			max_ip = len(v['ip'])
 
 
-	sql = "INSERT INTO log_time(time_tag,max_200,max_204,status_404,status_502,ip, " \
-			"min_request_time,max_request_time,min_response_time," \
-	        "max_response_time,max_qps,min_qps,max_qps_time,min_qps_time,local_ip) VALUES " \
-		    "('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')" % (time_min_tag,
-	                                                                    max_200,max_204,max_4xx,max_502,max_ip,
-		                                                                min_request_time,max_request_time,
-		                                                                min_response_time,min_response_time,
-                                                                      max_qps,min_qps,max_qps_time,min_qps_time,local_ip)
+	# sql = "INSERT INTO app_loginfo(time_tag,max_200,max_204,status_404,status_502,ip, " \
+	# 		"min_request_time,max_request_time,min_response_time," \
+	#         "max_response_time,max_qps,min_qps,max_qps_time,min_qps_time,local_ip) VALUES " \
+	# 	    "('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')" % (time_min_tag,
+	#                                                                     max_200,max_204,max_4xx,max_502,max_ip,
+	# 	                                                                min_request_time,max_request_time,
+	# 	                                                                min_response_time,min_response_time,
+     #                                                                  max_qps,min_qps,max_qps_time,min_qps_time,local_ip)
 
-	DB(sql,'insert')
+	info_sql = "INSERT INTO app_loginfo(host_ip,check_time,status_200," \
+	           "status_204,status_404,status_502,ip_nums,max_qps,min_qps," \
+	           "max_qps_time,min_qps_time,min_request_times,max_request_times," \
+	           "min_response_times,max_response_times) VALUES " \
+	           "('%s',%s',%s',%s',%s',%s',%s',%s',%s',%s',%s',%s',%s',%s',%s')" % (
+		local_ip,time_min_tag,max_200,max_204,max_4xx,max_502,max_ip,max_qps,min_qps,
+		max_qps_time,min_qps_time,min_request_time,max_request_time,min_response_time,max_response_time
+	)
+
+	DB(info_sql,'insert')
 	# print(sql)
 
 

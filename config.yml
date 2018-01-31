@@ -7,10 +7,9 @@ global:
 log:
   path: /var/log/analysislog.log
 
-
 db:
-  name: nginx_log
-  host: 10.20.40.21
+  name: analysislog
+  host: "10.20.40.21"
   port: 3306
   user: root
-  passwd: zhanglei
+  pass: zhanglei
