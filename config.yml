@@ -1,7 +1,7 @@
 global:
   path: /Data/logs/api_vmatch
   name: api.vmatch.tansuotv.com_%Y%m%d%H%M.log
-  separator: {|}
+  separator: "{|}"
   ipaddr: 1.1.1.1
 
 log:
