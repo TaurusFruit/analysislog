@@ -115,7 +115,7 @@ def getLogData():
 	logfile_name = getLogFileName()                             # 获取日志文件名
 	if not os.path.exists(logfile_name):
 		print("%s not exist!" % logfile_name)
-		sys.exit(1)
+		return False
 	if not logfile_name:
 		return False
 
@@ -156,7 +156,19 @@ def getLogData():
 	return (time_min_tag,log_detail_dict)
 
 def updateDB():
-	(time_min_tag,log_detail_dict) = getLogData()
+	local_ip = getLocalIP()
+	try:
+		(time_min_tag,log_detail_dict) = getLogData()
+	except:
+		time_min_tag = (datetime.datetime.now() - datetime.timedelta(minutes=2)).strftime("%Y/%m/%d %H:%M:00")
+		info_sql = "INSERT INTO app_loginfo(host_ip,check_time,status_200," \
+	           "status_204,status_404,status_502,ip_nums,max_qps,min_qps," \
+	           "max_qps_time,min_qps_time,min_request_times,max_request_times," \
+	           "min_response_times,max_response_times,all_requests,all_status_200) VALUES " \
+	           "('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')" % (
+		local_ip,time_min_tag,'0','0','0','0','0','0','0',
+		'0','0','0','0','0','0','0','0')
+		DB(info_sql,'insert')
 
 	max_request_time = 0
 	min_request_time = 10
@@ -171,7 +183,7 @@ def updateDB():
 	min_qps_time = ''
 	max_ip = 0
 	max_502 = 0
-	local_ip = getLocalIP()
+
 	all_request = 0
 	all_status_200 = 0
 
