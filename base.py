@@ -169,6 +169,7 @@ def updateDB():
 		local_ip,time_min_tag,'0','0','0','0','0','0','0',
 		'0','0','0','0','0','0','0','0')
 		DB(info_sql,'insert')
+		return False
 
 	max_request_time = 0
 	min_request_time = 10
