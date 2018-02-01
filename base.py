@@ -164,10 +164,11 @@ def updateDB():
 		info_sql = "INSERT INTO app_loginfo(host_ip,check_time,status_200," \
 	           "status_204,status_404,status_502,ip_nums,max_qps,min_qps," \
 	           "max_qps_time,min_qps_time,min_request_times,max_request_times," \
+	           "max_qps_time,min_qps_time,min_request_times,max_request_times," \
 	           "min_response_times,max_response_times,all_requests,all_status_200) VALUES " \
 	           "('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')" % (
 		local_ip,time_min_tag,'0','0','0','0','0','0','0',
-		'0','0','0','0','0','0','0','0')
+		time_min_tag,time_min_tag,'0','0','0','0','0','0')
 		DB(info_sql,'insert')
 		return False
 

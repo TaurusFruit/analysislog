@@ -38,21 +38,21 @@
       <file leaf-file-name="base.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7577319">
-              <caret line="171" column="20" selection-start-line="171" selection-start-column="20" selection-end-line="171" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.53608245">
+              <caret line="166" column="51" selection-start-line="166" selection-start-column="51" selection-end-line="166" selection-end-column="51" />
               <folding>
-                <marker date="1517453497478" expanded="true" signature="4722:5123" placeholder="INSERT INTO app_loginfo..." />
-                <marker date="1517453497478" expanded="true" signature="7066:7385" placeholder="INSERT INTO log_time..." />
-                <marker date="1517453497478" expanded="true" signature="7861:8158" placeholder="INSERT INTO app_loginfo..." />
-                <marker date="1517453497478" expanded="true" signature="7861:8159" placeholder="INSERT INTO app_loginfo..." />
-                <marker date="1517453497478" expanded="true" signature="7861:8177" placeholder="INSERT INTO app_loginfo..." />
-                <marker date="1517453497478" expanded="true" signature="7861:8181" placeholder="INSERT INTO app_loginfo..." />
-                <marker date="1517453497478" expanded="true" signature="7861:8187" placeholder="INSERT INTO app_loginfo..." />
-                <marker date="1517453497478" expanded="true" signature="7861:8192" placeholder="INSERT INTO app_loginfo..." />
-                <marker date="1517453497478" expanded="true" signature="7861:8227" placeholder="INSERT INTO app_loginfo..." />
-                <marker date="1517453497478" expanded="true" signature="7861:8242" placeholder="INSERT INTO app_loginfo..." />
-                <marker date="1517453497478" expanded="true" signature="7861:8247" placeholder="INSERT INTO app_loginfo..." />
-                <marker date="1517453497478" expanded="true" signature="7861:8262" placeholder="INSERT INTO app_loginfo..." />
+                <marker date="1517455910499" expanded="true" signature="4722:5202" placeholder="INSERT INTO app_loginfo..." />
+                <marker date="1517455910499" expanded="true" signature="7163:7482" placeholder="INSERT INTO log_time..." />
+                <marker date="1517455910499" expanded="true" signature="7958:8255" placeholder="INSERT INTO app_loginfo..." />
+                <marker date="1517455910499" expanded="true" signature="7958:8256" placeholder="INSERT INTO app_loginfo..." />
+                <marker date="1517455910499" expanded="true" signature="7958:8274" placeholder="INSERT INTO app_loginfo..." />
+                <marker date="1517455910499" expanded="true" signature="7958:8278" placeholder="INSERT INTO app_loginfo..." />
+                <marker date="1517455910499" expanded="true" signature="7958:8284" placeholder="INSERT INTO app_loginfo..." />
+                <marker date="1517455910499" expanded="true" signature="7958:8289" placeholder="INSERT INTO app_loginfo..." />
+                <marker date="1517455910499" expanded="true" signature="7958:8324" placeholder="INSERT INTO app_loginfo..." />
+                <marker date="1517455910499" expanded="true" signature="7958:8339" placeholder="INSERT INTO app_loginfo..." />
+                <marker date="1517455910499" expanded="true" signature="7958:8344" placeholder="INSERT INTO app_loginfo..." />
+                <marker date="1517455910499" expanded="true" signature="7958:8359" placeholder="INSERT INTO app_loginfo..." />
               </folding>
             </state>
           </provider>
@@ -410,7 +410,13 @@
       <option name="project" value="LOCAL" />
       <updated>1517453426341</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="增加统计当前所有请求数量字段">
+      <created>1517453503668</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1517453503668</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -464,18 +470,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1517453497478" expanded="true" signature="4722:5123" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7066:7385" placeholder="INSERT INTO log_time..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8158" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8159" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8177" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8181" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8187" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8192" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8227" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8242" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8247" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8262" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="4722:5202" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7163:7482" placeholder="INSERT INTO log_time..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8255" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8256" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8274" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8278" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8284" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8289" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8324" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8339" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8344" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8359" placeholder="INSERT INTO app_loginfo..." />
           </folding>
         </state>
       </provider>
@@ -493,18 +499,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1517453497478" expanded="true" signature="4722:5123" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7066:7385" placeholder="INSERT INTO log_time..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8158" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8159" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8177" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8181" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8187" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8192" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8227" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8242" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8247" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8262" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="4722:5202" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7163:7482" placeholder="INSERT INTO log_time..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8255" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8256" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8274" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8278" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8284" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8289" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8324" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8339" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8344" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8359" placeholder="INSERT INTO app_loginfo..." />
           </folding>
         </state>
       </provider>
@@ -519,21 +525,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7577319">
-          <caret line="171" column="20" selection-start-line="171" selection-start-column="20" selection-end-line="171" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.53608245">
+          <caret line="166" column="51" selection-start-line="166" selection-start-column="51" selection-end-line="166" selection-end-column="51" />
           <folding>
-            <marker date="1517453497478" expanded="true" signature="4722:5123" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7066:7385" placeholder="INSERT INTO log_time..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8158" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8159" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8177" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8181" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8187" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8192" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8227" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8242" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8247" placeholder="INSERT INTO app_loginfo..." />
-            <marker date="1517453497478" expanded="true" signature="7861:8262" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="4722:5202" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7163:7482" placeholder="INSERT INTO log_time..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8255" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8256" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8274" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8278" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8284" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8289" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8324" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8339" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8344" placeholder="INSERT INTO app_loginfo..." />
+            <marker date="1517455910499" expanded="true" signature="7958:8359" placeholder="INSERT INTO app_loginfo..." />
           </folding>
         </state>
       </provider>
