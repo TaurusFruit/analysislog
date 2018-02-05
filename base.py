@@ -93,7 +93,7 @@ def SaveLog(data,type=1):
 
 
 
-def getLogFileName():
+def getLogFileName(type="now"):
 	'''
 	获取要分析日志文件名称
 	:return:
@@ -102,7 +102,10 @@ def getLogFileName():
 	cmp = re.compile(r'(?P<path>.*com_)(?P<stm>.*)(?P<tag>.log)')
 	try:                                                            # 获取上一分钟日志文件名称
 		filename_dict = cmp.match(log_file).groupdict()
-		last_log_time = (datetime.datetime.now() - datetime.timedelta(minutes=2)).strftime(filename_dict['stm'])        # 计算上一分钟具体时间
+		if type == 'now':
+			last_log_time = (datetime.datetime.now() - datetime.timedelta(minutes=2)).strftime(filename_dict['stm'])        # 计算上一分钟具体时间
+		else:
+			last_log_time = (datetime.datetime.now() - datetime.timedelta(days=3)).strftime(filename_dict['stm'])        # 计算上一分钟具体时间
 		filename = filename_dict['path'] + str(last_log_time) + filename_dict['tag']
 		return filename
 	except:
@@ -269,5 +272,5 @@ def updateDB():
 
 if __name__ == '__main__':
 	updateDB()
-	logfile_name = getLogFileName()
+	logfile_name = getLogFileName(type="last")
 	os.system('rm -f %s' % logfile_name)
